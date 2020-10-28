@@ -1,0 +1,6 @@
+1. Connect db(just mysql/sqlalc).
+2. Add flask-security
+3. Create login-form
+4. Create 3 tables (users - tasks (foreign key) ... roles)
+5. Create admin-panel
+6. Create sec for admin-panel
