@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark default-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">TaskManager</a>
   
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -34,30 +34,20 @@
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="#">Tasks
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Add Task</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Timing</a>
         </li>
-  
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
         </li>
-  
       </ul>
-      <!-- Links -->
   
       <form class="form-inline">
         <div class="md-form my-0">
@@ -70,24 +60,37 @@
   </nav>
   <!--/.Navbar-->
 
-  <div class="container">
-    <div class="col p-3">
-        <h1>
+  <div class="container ">
+    <div class="row d-flex justify-content-center">
+      <div class="card gradient-card mt-5">
 
-            {% block content_title %}
-                
-            {% endblock content_title %}
+        <div class="card-image" style="background-image: url(https://images.wallpaperscraft.ru/image/klaviatura_telefon_rabochij_stol_179668_1920x1080.jpg);">
 
-        </h1>
-    </div>
-    <div class="col">
-        <h3>
+          <!-- Content -->
+          
+            <div class="text-white d-flex h-100 mask aqua-gradient-rgba">
+              <div class="first-content align-self-center p-3">
+                <h3 class="card-title">Task</h3>
 
-            {% block content %}
-                
-            {% endblock content %}
+              </div>
+              <div class="second-content  align-self-center mx-auto text-center">
+                <i class="fas fa-chart-line fa-3x"></i>
+              </div>
+            </div>
+          
 
-        </h3>
+        </div>
+
+        <!-- Data -->
+        
+
+        <!-- Content -->
+        <div class="card-body white">
+          <h4 class="text-uppercase font-weight-bold my-4">Details</h4>
+          <p class="text-muted" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel dolores qui, necessitatibus aut eaque magni mollitia tenetur molestiae sit quae quos quaerat amet exercitationem atque animi odio.</p>
+        </div>
+
+      </div>
     </div>
 </div>
 </body>
