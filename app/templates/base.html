@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark default-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">TaskManager</a>
+    <a class="navbar-brand" href="{{url_for('index')}}">TaskManager</a>
   
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -34,7 +34,7 @@
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Tasks
+          <a class="nav-link" href="{{url_for('tasks.index')}}">Tasks
             <span class="sr-only">(current)</span>
           </a>
         </li>
@@ -61,37 +61,11 @@
   <!--/.Navbar-->
 
   <div class="container ">
-    <div class="row d-flex justify-content-center">
-      <div class="card gradient-card mt-5">
-
-        <div class="card-image" style="background-image: url(https://images.wallpaperscraft.ru/image/klaviatura_telefon_rabochij_stol_179668_1920x1080.jpg);">
-
-          <!-- Content -->
-          
-            <div class="text-white d-flex h-100 mask aqua-gradient-rgba">
-              <div class="first-content align-self-center p-3">
-                <h3 class="card-title">Task</h3>
-
-              </div>
-              <div class="second-content  align-self-center mx-auto text-center">
-                <i class="fas fa-chart-line fa-3x"></i>
-              </div>
-            </div>
-          
-
-        </div>
-
-        <!-- Data -->
-        
-
-        <!-- Content -->
-        <div class="card-body white">
-          <h4 class="text-uppercase font-weight-bold my-4">Details</h4>
-          <p class="text-muted" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel dolores qui, necessitatibus aut eaque magni mollitia tenetur molestiae sit quae quos quaerat amet exercitationem atque animi odio.</p>
-        </div>
-
-      </div>
-    </div>
-</div>
+    
+    {% block content %}
+      
+    {% endblock content %}
+    
+  </div>
 </body>
 </html>
