@@ -42,10 +42,9 @@ def login():
     if request.method == "POST":
         name = request.form.get("name")
         password = request.form.get("password")
-
-        namedata = db.execute("SELECT name FROM user WHERE name=name",{"name":name}).fetchone()
+        query_name = "SELECT name FROM user WHERE name like '{0}'".format(name)
+        namedata = db.execute(query_name).fetchone()
         passworddata = db.execute("SELECT password FROM user WHERE password=password",{"password":password}).fetchone()
-
         if namedata is None:
             flash("No name", "danger")
             return render_template("login.html")
@@ -53,12 +52,13 @@ def login():
             for password_data in passworddata:
                 if sha256_crypt.verify(password, password_data):
                     session["log"] = True
+                    session["username"] = name
                     flash("You are now login", "success")
                     return redirect(url_for('tasks.index'))
                 else:
                     flash("incorrect password", "danger")
                     return render_template("login.html")
-    
+
     return render_template('login.html')
 
 #logout
