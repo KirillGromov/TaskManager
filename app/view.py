@@ -3,9 +3,11 @@ from flask import render_template, flash, request, url_for, redirect, session
 #from dbmodels import connection, insert_user
 from wtforms import Form, BooleanField, TextField, PasswordField, validators
 from passlib.hash import sha256_crypt
-from dbmodels import db
-import gc
+from dbmodels import login_password, login_username, db, reg_user, delete_task, select_tasks
 import log
+from flask import jsonify
+
+
 #from models import RegistrationForm
 
 
@@ -25,9 +27,7 @@ def register():
         secure_password = sha256_crypt.encrypt(str(password))
 
         if password == confirm:
-            db.execute("INSERT INTO user(name, email, password) VALUES(:name,:email,:password)",
-                        {"name":name,"email":email,"password": secure_password})
-            db.commit()
+            reg_user(name, email, secure_password)
             return redirect(url_for('login'))
         else:
             flash("password does not match", "danger")
@@ -42,9 +42,9 @@ def login():
     if request.method == "POST":
         name = request.form.get("name")
         password = request.form.get("password")
-        query_name = "SELECT name FROM user WHERE name like '{0}'".format(name)
-        namedata = db.execute(query_name).fetchone()
-        passworddata = db.execute("SELECT password FROM user WHERE password=password",{"password":password}).fetchone()
+        namedata = login_username(name)
+        passworddata = login_password(password)
+
         if namedata is None:
             flash("No name", "danger")
             return render_template("login.html")
@@ -60,6 +60,9 @@ def login():
                     return render_template("login.html")
 
     return render_template('login.html')
+
+
+
 
 #logout
 @app.route("/logout")

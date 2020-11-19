@@ -1,14 +1,16 @@
 from flask import Blueprint
-from flask import render_template, flash, request, redirect, url_for, session
-from dbmodels import db
+from flask import render_template, flash, request, redirect, url_for, session, request
+from dbmodels import db, delete_task, select_tasks
+from flask import jsonify
 
 tasks = Blueprint('tasks', __name__, template_folder='templates')
 
 @tasks.route('/')
 def index():
     name = session["username"]
-    query = "SELECT * FROM task WHERE name like '{0}'".format(name)
-    tasks = db.execute(query).fetchall()
+    tasks = select_tasks(name)
+    
+
     return render_template('tasks/index.html', tasks = tasks)
 
 @tasks.route("/add_task", methods=["POST", "GET"])
@@ -26,6 +28,25 @@ def AddTask():
             db.commit()
             return redirect(url_for('tasks.index'))
     return render_template("tasks/add_task.html")
+
+@tasks.route('/del_task', methods=['POST'])
+def delete_item():
+    
+    tasks = select_tasks(session["username"])
+    item_id = int(request.get_json()['id'])
+    result = {}
+    #print("before:", data)
+    for i in range(len(tasks)):
+        if tasks[i]['item_id'] == item_id:
+            delete_task(item_id)
+            break
+    print("posle:", tasks)
+    return jsonify(removed_item=tasks)
+
+
+
+
+
 
 
 
