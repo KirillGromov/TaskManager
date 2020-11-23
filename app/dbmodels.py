@@ -22,6 +22,7 @@ def reg_user(name, email, password):
 def select_tasks(name):
     return db.execute("SELECT * FROM task WHERE name like '{0}'".format(name)).fetchall()
 
-def delete_task(id):
-    db.execute("DELETE FROM task WHERE id = '{0}';".format(id))
+def delete_task(item_id):
+    print("item_id:", item_id)
+    db.execute("DELETE FROM task WHERE id = '{0}';".format(item_id))
     db.commit()

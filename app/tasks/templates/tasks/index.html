@@ -14,7 +14,7 @@
 
         <!-- Content -->
         
-          
+          <a href="{{url_for('tasks.task')}}">
             <div class="text-white d-flex h-100 mask aqua-gradient-rgba">
               <div class="first-content align-self-center p-3">
                 <p>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="col">
-        <button class="btn btn-success" onclick="delete_item(this.id)" id="delete_button_{{ task['id'] }}">{{task['id']}}</button>
+        <button class="btn btn-default mx-3 my-3" onclick="delete_item(this.id)" id="delete_button_{{ task['id'] }}">Delete task</button>
       </div>
       
     </div>

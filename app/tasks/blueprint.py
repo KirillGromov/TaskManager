@@ -31,17 +31,21 @@ def AddTask():
 
 @tasks.route('/del_task', methods=['POST'])
 def delete_item():
-    
     tasks = select_tasks(session["username"])
     item_id = int(request.get_json()['id'])
-    result = {}
-    #print("before:", data)
+
     for i in range(len(tasks)):
-        if tasks[i]['item_id'] == item_id:
+        if tasks[i][0] == item_id:
             delete_task(item_id)
             break
-    print("posle:", tasks)
-    return jsonify(removed_item=tasks)
+
+    return jsonify(removed_item=item_id)
+
+@tasks.route('/task')
+def task():
+    return render_template("tasks/task.html")
+
+
 
 
 

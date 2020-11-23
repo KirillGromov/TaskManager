@@ -16,7 +16,7 @@ function delete_item(id){
         success: function(req) {
             console.log('DONE!');
             console.log(req)
-            document.location.reload();
+            location.href=location.href;
         }
         
     });

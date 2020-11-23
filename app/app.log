@@ -2117,3 +2117,196 @@
 19-Nov-20 17:45:01 - 127.0.0.1 - - [19/Nov/2020 17:45:01] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
 19-Nov-20 17:45:01 - 127.0.0.1 - - [19/Nov/2020 17:45:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 19-Nov-20 17:45:02 - 127.0.0.1 - - [19/Nov/2020 17:45:02] "[35m[1mPOST /tasks/del_task HTTP/1.1[0m" 500 -
+20-Nov-20 13:01:11 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+20-Nov-20 13:01:11 -  * Restarting with stat
+20-Nov-20 13:01:12 -  * Debugger is active!
+20-Nov-20 13:01:12 -  * Debugger PIN: 160-997-704
+20-Nov-20 13:16:18 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/tasks/blueprint.py', reloading
+20-Nov-20 13:16:18 -  * Restarting with stat
+20-Nov-20 13:16:18 -  * Debugger is active!
+20-Nov-20 13:16:18 -  * Debugger PIN: 160-997-704
+20-Nov-20 13:17:17 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/dbmodels.py', reloading
+20-Nov-20 13:17:17 -  * Restarting with stat
+20-Nov-20 13:17:17 -  * Debugger is active!
+20-Nov-20 13:17:17 -  * Debugger PIN: 160-997-704
+20-Nov-20 13:17:51 - 127.0.0.1 - - [20/Nov/2020 13:17:51] "[37mGET / HTTP/1.1[0m" 200 -
+20-Nov-20 13:17:51 - 127.0.0.1 - - [20/Nov/2020 13:17:51] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:17:51 - 127.0.0.1 - - [20/Nov/2020 13:17:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20-Nov-20 13:17:52 - 127.0.0.1 - - [20/Nov/2020 13:17:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+20-Nov-20 13:17:53 - 127.0.0.1 - - [20/Nov/2020 13:17:53] "[37mGET /login HTTP/1.1[0m" 200 -
+20-Nov-20 13:17:57 - 127.0.0.1 - - [20/Nov/2020 13:17:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+20-Nov-20 13:17:57 - 127.0.0.1 - - [20/Nov/2020 13:17:57] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:01 - 127.0.0.1 - - [20/Nov/2020 13:18:01] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:28 - 127.0.0.1 - - [20/Nov/2020 13:18:28] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:28 - 127.0.0.1 - - [20/Nov/2020 13:18:28] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:28 - 127.0.0.1 - - [20/Nov/2020 13:18:28] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:28 - 127.0.0.1 - - [20/Nov/2020 13:18:28] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:30 - 127.0.0.1 - - [20/Nov/2020 13:18:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20-Nov-20 13:18:34 - 127.0.0.1 - - [20/Nov/2020 13:18:34] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:44 - 127.0.0.1 - - [20/Nov/2020 13:18:44] "[32mPOST /tasks/add_task HTTP/1.1[0m" 302 -
+20-Nov-20 13:18:44 - 127.0.0.1 - - [20/Nov/2020 13:18:44] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:49 - 127.0.0.1 - - [20/Nov/2020 13:18:49] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:55 - 127.0.0.1 - - [20/Nov/2020 13:18:55] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:56 - 127.0.0.1 - - [20/Nov/2020 13:18:56] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:18:57 - 127.0.0.1 - - [20/Nov/2020 13:18:57] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:19:00 - 127.0.0.1 - - [20/Nov/2020 13:19:00] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:19:11 - 127.0.0.1 - - [20/Nov/2020 13:19:11] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:33 - 127.0.0.1 - - [20/Nov/2020 13:32:33] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:33 - 127.0.0.1 - - [20/Nov/2020 13:32:33] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:34 - 127.0.0.1 - - [20/Nov/2020 13:32:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20-Nov-20 13:32:35 - 127.0.0.1 - - [20/Nov/2020 13:32:35] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:35 - 127.0.0.1 - - [20/Nov/2020 13:32:35] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:35 - 127.0.0.1 - - [20/Nov/2020 13:32:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+20-Nov-20 13:32:39 - 127.0.0.1 - - [20/Nov/2020 13:32:39] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:39 - 127.0.0.1 - - [20/Nov/2020 13:32:39] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:42 - 127.0.0.1 - - [20/Nov/2020 13:32:42] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:45 - 127.0.0.1 - - [20/Nov/2020 13:32:45] "[32mPOST /tasks/add_task HTTP/1.1[0m" 302 -
+20-Nov-20 13:32:45 - 127.0.0.1 - - [20/Nov/2020 13:32:45] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:46 - 127.0.0.1 - - [20/Nov/2020 13:32:46] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:46 - 127.0.0.1 - - [20/Nov/2020 13:32:46] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:47 - 127.0.0.1 - - [20/Nov/2020 13:32:47] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:50 - 127.0.0.1 - - [20/Nov/2020 13:32:50] "[32mPOST /tasks/add_task HTTP/1.1[0m" 302 -
+20-Nov-20 13:32:50 - 127.0.0.1 - - [20/Nov/2020 13:32:50] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:53 - 127.0.0.1 - - [20/Nov/2020 13:32:53] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:32:53 - 127.0.0.1 - - [20/Nov/2020 13:32:53] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:34:50 - 127.0.0.1 - - [20/Nov/2020 13:34:50] "[37mGET / HTTP/1.1[0m" 200 -
+20-Nov-20 13:34:51 - 127.0.0.1 - - [20/Nov/2020 13:34:51] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:34:54 - 127.0.0.1 - - [20/Nov/2020 13:34:54] "[32mPOST /tasks/add_task HTTP/1.1[0m" 302 -
+20-Nov-20 13:34:54 - 127.0.0.1 - - [20/Nov/2020 13:34:54] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:34:57 - 127.0.0.1 - - [20/Nov/2020 13:34:57] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:34:57 - 127.0.0.1 - - [20/Nov/2020 13:34:57] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:35:00 - 127.0.0.1 - - [20/Nov/2020 13:35:00] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:35:01 - 127.0.0.1 - - [20/Nov/2020 13:35:01] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:35:04 - 127.0.0.1 - - [20/Nov/2020 13:35:04] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:35:05 - 127.0.0.1 - - [20/Nov/2020 13:35:05] "[37mGET / HTTP/1.1[0m" 200 -
+20-Nov-20 13:36:09 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/tasks/blueprint.py', reloading
+20-Nov-20 13:36:09 -  * Restarting with stat
+20-Nov-20 13:36:10 -  * Debugger is active!
+20-Nov-20 13:36:10 -  * Debugger PIN: 160-997-704
+20-Nov-20 13:40:37 - 127.0.0.1 - - [20/Nov/2020 13:40:37] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:40:40 - 127.0.0.1 - - [20/Nov/2020 13:40:40] "[32mPOST /tasks/add_task HTTP/1.1[0m" 302 -
+20-Nov-20 13:40:40 - 127.0.0.1 - - [20/Nov/2020 13:40:40] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:46:59 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/tasks/blueprint.py', reloading
+20-Nov-20 13:46:59 -  * Restarting with stat
+20-Nov-20 13:46:59 -  * Debugger is active!
+20-Nov-20 13:46:59 -  * Debugger PIN: 160-997-704
+20-Nov-20 13:47:04 - 127.0.0.1 - - [20/Nov/2020 13:47:04] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:47:06 - 127.0.0.1 - - [20/Nov/2020 13:47:06] "[33mGET /tasks/url_for('tasks.task') HTTP/1.1[0m" 404 -
+20-Nov-20 13:47:48 - 127.0.0.1 - - [20/Nov/2020 13:47:48] "[33mGET /tasks/url_for('tasks.task') HTTP/1.1[0m" 404 -
+20-Nov-20 13:47:51 - 127.0.0.1 - - [20/Nov/2020 13:47:51] "[33mGET /tasks/url_for('tasks.task') HTTP/1.1[0m" 404 -
+20-Nov-20 13:48:29 - 127.0.0.1 - - [20/Nov/2020 13:48:29] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:30 - 127.0.0.1 - - [20/Nov/2020 13:48:30] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:30 - 127.0.0.1 - - [20/Nov/2020 13:48:30] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:37 - 127.0.0.1 - - [20/Nov/2020 13:48:37] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:38 - 127.0.0.1 - - [20/Nov/2020 13:48:38] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:48:38 - 127.0.0.1 - - [20/Nov/2020 13:48:38] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:38 - 127.0.0.1 - - [20/Nov/2020 13:48:38] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:38 - 127.0.0.1 - - [20/Nov/2020 13:48:38] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:38 - 127.0.0.1 - - [20/Nov/2020 13:48:38] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:48:39 - 127.0.0.1 - - [20/Nov/2020 13:48:39] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:17 - 127.0.0.1 - - [20/Nov/2020 13:49:17] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:49:17 - 127.0.0.1 - - [20/Nov/2020 13:49:17] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:17 - 127.0.0.1 - - [20/Nov/2020 13:49:17] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:17 - 127.0.0.1 - - [20/Nov/2020 13:49:17] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:17 - 127.0.0.1 - - [20/Nov/2020 13:49:17] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:17 - 127.0.0.1 - - [20/Nov/2020 13:49:17] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:19 - 127.0.0.1 - - [20/Nov/2020 13:49:19] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:49:19 - 127.0.0.1 - - [20/Nov/2020 13:49:19] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:19 - 127.0.0.1 - - [20/Nov/2020 13:49:19] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:19 - 127.0.0.1 - - [20/Nov/2020 13:49:19] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:20 - 127.0.0.1 - - [20/Nov/2020 13:49:20] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:56 - 127.0.0.1 - - [20/Nov/2020 13:49:56] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:49:56 - 127.0.0.1 - - [20/Nov/2020 13:49:56] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:56 - 127.0.0.1 - - [20/Nov/2020 13:49:56] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:56 - 127.0.0.1 - - [20/Nov/2020 13:49:56] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:56 - 127.0.0.1 - - [20/Nov/2020 13:49:56] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:49:56 - 127.0.0.1 - - [20/Nov/2020 13:49:56] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:01 - 127.0.0.1 - - [20/Nov/2020 13:50:01] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:50:01 - 127.0.0.1 - - [20/Nov/2020 13:50:01] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:01 - 127.0.0.1 - - [20/Nov/2020 13:50:01] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:01 - 127.0.0.1 - - [20/Nov/2020 13:50:01] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:01 - 127.0.0.1 - - [20/Nov/2020 13:50:01] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:04 - 127.0.0.1 - - [20/Nov/2020 13:50:04] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:50:04 - 127.0.0.1 - - [20/Nov/2020 13:50:04] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:04 - 127.0.0.1 - - [20/Nov/2020 13:50:04] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:04 - 127.0.0.1 - - [20/Nov/2020 13:50:04] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:04 - 127.0.0.1 - - [20/Nov/2020 13:50:04] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:06 - 127.0.0.1 - - [20/Nov/2020 13:50:06] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:50:06 - 127.0.0.1 - - [20/Nov/2020 13:50:06] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:06 - 127.0.0.1 - - [20/Nov/2020 13:50:06] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:06 - 127.0.0.1 - - [20/Nov/2020 13:50:06] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:06 - 127.0.0.1 - - [20/Nov/2020 13:50:06] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:15 - 127.0.0.1 - - [20/Nov/2020 13:50:15] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:50:15 - 127.0.0.1 - - [20/Nov/2020 13:50:15] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:15 - 127.0.0.1 - - [20/Nov/2020 13:50:15] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:15 - 127.0.0.1 - - [20/Nov/2020 13:50:15] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:15 - 127.0.0.1 - - [20/Nov/2020 13:50:15] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:22 - 127.0.0.1 - - [20/Nov/2020 13:50:22] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:50:22 - 127.0.0.1 - - [20/Nov/2020 13:50:22] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:22 - 127.0.0.1 - - [20/Nov/2020 13:50:22] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:22 - 127.0.0.1 - - [20/Nov/2020 13:50:22] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:22 - 127.0.0.1 - - [20/Nov/2020 13:50:22] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:50 - 127.0.0.1 - - [20/Nov/2020 13:50:50] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:50:50 - 127.0.0.1 - - [20/Nov/2020 13:50:50] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:50 - 127.0.0.1 - - [20/Nov/2020 13:50:50] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:50 - 127.0.0.1 - - [20/Nov/2020 13:50:50] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:50 - 127.0.0.1 - - [20/Nov/2020 13:50:50] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:50:57 - 127.0.0.1 - - [20/Nov/2020 13:50:57] "[33mGET /task HTTP/1.1[0m" 404 -
+20-Nov-20 13:51:05 - 127.0.0.1 - - [20/Nov/2020 13:51:05] "[33mGET /task HTTP/1.1[0m" 404 -
+20-Nov-20 13:56:25 - 127.0.0.1 - - [20/Nov/2020 13:56:25] "[37mGET / HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:26 - 127.0.0.1 - - [20/Nov/2020 13:56:26] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:30 - 127.0.0.1 - - [20/Nov/2020 13:56:30] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:31 - 127.0.0.1 - - [20/Nov/2020 13:56:31] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:32 - 127.0.0.1 - - [20/Nov/2020 13:56:32] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:33 - 127.0.0.1 - - [20/Nov/2020 13:56:33] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:34 - 127.0.0.1 - - [20/Nov/2020 13:56:34] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:34 - 127.0.0.1 - - [20/Nov/2020 13:56:34] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:36 - 127.0.0.1 - - [20/Nov/2020 13:56:36] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:56:36 - 127.0.0.1 - - [20/Nov/2020 13:56:36] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:57:02 - 127.0.0.1 - - [20/Nov/2020 13:57:02] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:57:10 - 127.0.0.1 - - [20/Nov/2020 13:57:10] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 13:57:11 - 127.0.0.1 - - [20/Nov/2020 13:57:11] "[35m[1mGET /tasks/task HTTP/1.1[0m" 500 -
+20-Nov-20 13:57:11 - 127.0.0.1 - - [20/Nov/2020 13:57:11] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+20-Nov-20 13:57:11 - 127.0.0.1 - - [20/Nov/2020 13:57:11] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:57:11 - 127.0.0.1 - - [20/Nov/2020 13:57:11] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+20-Nov-20 13:57:11 - 127.0.0.1 - - [20/Nov/2020 13:57:11] "[37mGET /tasks/task?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+20-Nov-20 13:58:32 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/tasks/blueprint.py', reloading
+20-Nov-20 13:58:32 -  * Restarting with stat
+20-Nov-20 13:58:33 -  * Debugger is active!
+20-Nov-20 13:58:33 -  * Debugger PIN: 160-997-704
+20-Nov-20 13:58:35 - 127.0.0.1 - - [20/Nov/2020 13:58:35] "[37mGET /tasks/task HTTP/1.1[0m" 200 -
+20-Nov-20 13:58:39 - 127.0.0.1 - - [20/Nov/2020 13:58:39] "[37mGET / HTTP/1.1[0m" 200 -
+20-Nov-20 13:58:40 - 127.0.0.1 - - [20/Nov/2020 13:58:40] "[37mGET /tasks/task HTTP/1.1[0m" 200 -
+20-Nov-20 13:58:41 - 127.0.0.1 - - [20/Nov/2020 13:58:41] "[37mGET / HTTP/1.1[0m" 200 -
+20-Nov-20 13:58:43 - 127.0.0.1 - - [20/Nov/2020 13:58:43] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 13:58:44 - 127.0.0.1 - - [20/Nov/2020 13:58:44] "[37mGET /tasks/task HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:40 - 127.0.0.1 - - [20/Nov/2020 14:05:40] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:41 - 127.0.0.1 - - [20/Nov/2020 14:05:41] "[37mGET /tasks/task HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:46 - 127.0.0.1 - - [20/Nov/2020 14:05:46] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:48 - 127.0.0.1 - - [20/Nov/2020 14:05:48] "[37mPOST /tasks/del_task HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:48 - 127.0.0.1 - - [20/Nov/2020 14:05:48] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:50 - 127.0.0.1 - - [20/Nov/2020 14:05:50] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:51 - 127.0.0.1 - - [20/Nov/2020 14:05:51] "[37mGET /tasks/task HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:53 - 127.0.0.1 - - [20/Nov/2020 14:05:53] "[37mGET /tasks/add_task HTTP/1.1[0m" 200 -
+20-Nov-20 14:05:59 - 127.0.0.1 - - [20/Nov/2020 14:05:59] "[32mPOST /tasks/add_task HTTP/1.1[0m" 302 -
+20-Nov-20 14:06:00 - 127.0.0.1 - - [20/Nov/2020 14:06:00] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:07:19 - 127.0.0.1 - - [20/Nov/2020 14:07:19] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:07:35 - 127.0.0.1 - - [20/Nov/2020 14:07:35] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:07:44 - 127.0.0.1 - - [20/Nov/2020 14:07:44] "[37mGET /tasks/ HTTP/1.1[0m" 200 -
+20-Nov-20 14:08:00 - 127.0.0.1 - - [20/Nov/2020 14:08:00] "[37mGET /tasks/task HTTP/1.1[0m" 200 -
+20-Nov-20 14:09:11 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/dbmodels.py', reloading
+20-Nov-20 14:09:11 -  * Restarting with stat
+20-Nov-20 14:09:11 -  * Debugger is active!
+20-Nov-20 14:09:11 -  * Debugger PIN: 160-997-704
+20-Nov-20 14:09:12 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/tasks/blueprint.py', reloading
+20-Nov-20 14:09:12 -  * Restarting with stat
+20-Nov-20 14:09:13 -  * Debugger is active!
+20-Nov-20 14:09:13 -  * Debugger PIN: 160-997-704
+20-Nov-20 14:09:23 -  * Detected change in '/home/womorg/Desktop/Flask_Site/taskmanager/app/tasks/blueprint.py', reloading
+20-Nov-20 14:09:23 -  * Restarting with stat
+20-Nov-20 14:09:23 -  * Debugger is active!
+20-Nov-20 14:09:23 -  * Debugger PIN: 160-997-704
+23-Nov-20 15:24:31 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+23-Nov-20 15:24:31 -  * Restarting with stat
+23-Nov-20 15:24:31 -  * Debugger is active!
+23-Nov-20 15:24:31 -  * Debugger PIN: 276-900-778
